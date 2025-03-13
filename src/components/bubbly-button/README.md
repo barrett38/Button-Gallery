@@ -4,10 +4,9 @@
 
 A button that releases Bubbles every time it is clicked.
 
-## 📖 Installation
+## 📖 Installation and Cloning
 
 ```sh
-# Clone the repository
 git clone https://github.com/barrett38/Bubble-Button/tree/main/src/components/bubbly-button
 ```
 

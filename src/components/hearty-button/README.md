@@ -4,10 +4,9 @@
 
 A button that releases Hearts every time it is clicked.
 
-## 📖 Installation
+## 📖 Installation and Cloning
 
 ```sh
-# Clone the repository
 git clone https://github.com/barrett38/Button-Gallery/tree/main/src/components/hearty-button
 ```
 
