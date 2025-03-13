@@ -1,4 +1,4 @@
-# Project Name
+## Bubble Button
 
 ## 📌 Description
 
@@ -9,17 +9,13 @@ A button that releases Bubbles every time it is clicked.
 ```sh
 # Clone the repository
 git clone https://github.com/barrett38/Bubble-Button/tree/main/src/components/bubbly-button
-
-# Install dependencies
-npm install
 ```
 
 ## 🛠️ Usage
 
-```sh
-# Run the project
-npm start
-```
+- **addBubbleToClick.js** is used to create the Bubbles.
+- **Bubbly-Buttons-Styles.css** styles everything.
+- **Bubbly-Button.jsx delivers** everything.
 
 ## 📬 Contact
 
@@ -27,4 +23,4 @@ npm start
 - **Email:** barrett1614@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/barrett1614/
 
-@Button
+@Template @Button
