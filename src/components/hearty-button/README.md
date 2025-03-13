@@ -2,20 +2,20 @@
 
 ## 📌 Description
 
-A button that releases Bubbles every time it is clicked.
+A button that releases Hearts every time it is clicked.
 
 ## 📖 Installation
 
 ```sh
 # Clone the repository
-git clone https://github.com/barrett38/Bubble-Button/tree/main/src/components/bubbly-button
+git clone https://github.com/barrett38/Button-Gallery/tree/main/src/components/hearty-button
 ```
 
 ## 🛠️ Usage
 
-- **addBubbleToClick.js** is used to create the Bubbles.
-- **Bubbly-Buttons-Styles.css** styles everything.
-- **Bubbly-Button.jsx delivers** everything.
+- **addHeartsToClick.js** is used to create the Bubbles.
+- **Hearty-Buttons-Styles.css** styles everything.
+- **Hearty-Button.jsx delivers** everything.
 
 ## 📬 Contact
 
