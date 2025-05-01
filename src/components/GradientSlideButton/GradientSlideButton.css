@@ -1,0 +1,64 @@
+:root {
+  --primary-color: #ff6ec4;
+  --secondary-color: #7873f5;
+  /* Font colors could be the same */
+  --primary-font-color: #fff;
+  --secondary-font-color: #fff;
+}
+
+.gradient-slide-btn {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  position: relative;
+  padding: 14px 32px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--primary-font-color);
+  border: none;
+  border-radius: 50px;
+  overflow: hidden;
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  transition: background-position 0.4s ease;
+  background-size: 200% 100%;
+  background-position: left;
+  z-index: 0;
+
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3),
+    0 5px 15px rgba(0, 0, 0, 0.3), 0 2px 5px rgba(0, 0, 0, 0.2);
+  transform: translateY(0);
+}
+
+.gradient-slide-btn span {
+  position: relative;
+  z-index: 2;
+}
+
+.gradient-slide-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  transition: transform 0.4s ease;
+  transform: translateX(-100%);
+  z-index: 1;
+}
+
+.gradient-slide-btn:hover::before {
+  transform: translateX(0);
+}
+
+.gradient-slide-btn:hover {
+  background-position: right;
+  color: var(--secondary-font-color);
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
