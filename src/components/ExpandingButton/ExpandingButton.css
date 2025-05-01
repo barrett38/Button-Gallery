@@ -29,8 +29,8 @@
 
 .animated-button .ripple {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  margin-top: 10px;
+  margin-bottom: 60px;
   width: 0;
   height: 0;
   background: rgba(255, 255, 255, 0.6);
