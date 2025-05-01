@@ -13,7 +13,7 @@ const App = () => {
         <BubblyButton>Click Me!</BubblyButton>
       </div>
       <div>
-        <HeartyButton>Click Me!</HeartyButton>
+        <HeartyButton />
       </div>
     </>
   );
