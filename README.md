@@ -1,3 +1,3 @@
-## Go to the Components Folder for more.
+## Button Gallery
 
-## See every specific Component.
+This is an ongoing collection of animated buttons.
