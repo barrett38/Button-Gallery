@@ -1,3 +1,7 @@
+* {
+  user-select: none;
+}
+
 .heart {
   position: absolute;
   width: 10px;

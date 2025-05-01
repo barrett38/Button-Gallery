@@ -1,3 +1,7 @@
+* {
+  user-select: none;
+}
+
 :root {
   --button-color: #ff0081;
   --button-color-when-clicked: #ff0081;
