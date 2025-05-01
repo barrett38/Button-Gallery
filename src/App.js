@@ -7,13 +7,13 @@ const App = () => {
   return (
     <>
       <div>
+        <ExpandingButton>Click Me!</ExpandingButton>
+      </div>
+      <div>
         <BubblyButton>Click Me!</BubblyButton>
       </div>
       <div>
         <HeartyButton>Click Me!</HeartyButton>
-      </div>
-      <div>
-        <ExpandingButton>Click Me!</ExpandingButton>
       </div>
     </>
   );

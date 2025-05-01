@@ -45,6 +45,11 @@ body {
   box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
 }
 
+.bubbly-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
 /* Individual bubble */
 .bubble {
   position: absolute;

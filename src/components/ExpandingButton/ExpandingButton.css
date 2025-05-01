@@ -5,6 +5,8 @@
 .animated-button {
   position: relative;
   padding: 12px 24px;
+  margin-top: 40px;
+  margin-bottom: 60px;
   /* More colors can be added or removed in the linear-gradient */
   background: linear-gradient(135deg, blue, #a777e3);
   color: white;
@@ -29,8 +31,6 @@
 
 .animated-button .ripple {
   position: absolute;
-  margin-top: 10px;
-  margin-bottom: 60px;
   width: 0;
   height: 0;
   background: rgba(255, 255, 255, 0.6);
