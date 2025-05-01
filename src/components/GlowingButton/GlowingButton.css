@@ -1,0 +1,45 @@
+.glow-button {
+  background: transparent;
+  color: #0ff;
+  font-size: 1.1rem;
+  padding: 14px 28px;
+  border: 2px solid #0ff;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px #0ff;
+  text-shadow: 0 0 5px #0ff;
+  overflow: hidden;
+}
+
+.glow-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: rgba(0, 255, 255, 0.15);
+  transition: all 0.5s ease;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  z-index: 0;
+}
+
+.glow-button:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 16px #0ff, 0 0 32px #0ff;
+  color: #000;
+  background-color: #0ff;
+  text-shadow: none;
+  color: white;
+}
+
+.glow-button:active {
+  transform: scale(0.95);
+}
