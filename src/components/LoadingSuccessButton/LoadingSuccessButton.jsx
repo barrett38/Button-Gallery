@@ -1,26 +1,17 @@
 import React, { useState } from "react";
 import "./LoadingSuccessButton.css";
+import handleClick from "./HandleClickSuccess";
 
 const LoadingSuccessButton = ({ label = "Save", onClick }) => {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
-
-  const handleClick = async () => {
-    setLoading(true);
-    setSuccess(false);
-    await new Promise((res) => setTimeout(res, 2000));
-    setLoading(false);
-    setSuccess(true);
-    if (onClick) onClick();
-    setTimeout(() => setSuccess(false), 3000);
-  };
 
   return (
     <button
       className={`btn-load-success ${loading ? "loading" : ""} ${
         success ? "success" : ""
       }`}
-      onClick={handleClick}
+      onClick={() => handleClick(setLoading, setSuccess, onClick)}
       disabled={loading || success}
     >
       {loading ? (
