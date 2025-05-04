@@ -5,7 +5,7 @@ import ExpandingButton from "./components/ExpandingButton/ExpandingButton";
 import GlowingButton from "./components/GlowingButton/GlowingButton";
 import GradientSlideButton from "./components/GradientSlideButton/GradientSlideButton";
 import LoadingSuccessButton from "./components/LoadingSuccessButton/LoadingSuccessButton";
-import ThemeToggleButton from "./components/ThemeToggleButton/ThemeToggleButton";
+import ThemeToggleButton from "./components/ThemeToggleButton/ThemeToggleButton.jsx";
 
 const App = () => {
   return (
@@ -32,7 +32,10 @@ const App = () => {
           onClick={() => console.log("Form submitted")}
         />
       </div>
-      <div>This is where it will go</div>
+      <div style={{ padding: "2rem", textAlign: "center" }}>
+        <h2>Toggle Light / Dark Mode</h2>
+        <ThemeToggleButton />
+      </div>
     </>
   );
 };
