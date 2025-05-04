@@ -4,6 +4,7 @@ import HeartyButton from "./components/hearty-button/Hearty-Button";
 import ExpandingButton from "./components/ExpandingButton/ExpandingButton";
 import GlowingButton from "./components/GlowingButton/GlowingButton";
 import GradientSlideButton from "./components/GradientSlideButton/GradientSlideButton";
+import LoadingSuccessButton from "./components/LoadingSuccessButton/LoadingSuccessButton";
 
 const App = () => {
   return (
@@ -22,6 +23,13 @@ const App = () => {
       </div>
       <div>
         <GradientSlideButton />
+      </div>
+      <div style={{ padding: "2rem", textAlign: "center" }}>
+        <h2>Async Button Feedback</h2>
+        <LoadingSuccessButton
+          label="Submit Form"
+          onClick={() => console.log("Form submitted")}
+        />
       </div>
     </>
   );
