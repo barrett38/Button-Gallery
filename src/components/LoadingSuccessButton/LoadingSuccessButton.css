@@ -1,9 +1,15 @@
+:root {
+  --btn-background: #4a90e2;
+  --spinner-color: #fff;
+  --checkmark-color: #2ecc71;
+}
+
 .btn-load-success {
   padding: 12px 28px;
   font-size: 1rem;
   border: none;
   border-radius: 40px;
-  background-color: #4a90e2;
+  background-color: var(--btn-background);
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -20,7 +26,7 @@
 .spinner {
   width: 20px;
   height: 20px;
-  border: 3px solid #fff;
+  border: 3px solid var(--spinner-color);
   border-top-color: transparent;
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
@@ -36,7 +42,7 @@
 
 .checkmark {
   font-size: 1.2rem;
-  color: #2ecc71;
+  color: var(--checkmark-color);
   animation: pop 0.3s ease-in-out;
 }
 
