@@ -1,12 +1,13 @@
 import React from "react";
 
+import CopyToClipboardButton from "./components/CopyToClipboardButton/CopyToClipboardButton.jsx";
 import ThemeToggleButton from "./components/ThemeToggleButton/ThemeToggleButton.jsx";
-import BubblyButton from "./components/bubbly-button/Bubbly-Button";
-import HeartyButton from "./components/hearty-button/Hearty-Button";
-import ExpandingButton from "./components/ExpandingButton/ExpandingButton";
-import GlowingButton from "./components/GlowingButton/GlowingButton";
-import GradientSlideButton from "./components/GradientSlideButton/GradientSlideButton";
-import LoadingSuccessButton from "./components/LoadingSuccessButton/LoadingSuccessButton";
+import BubblyButton from "./components/bubbly-button/Bubbly-Button.jsx";
+import HeartyButton from "./components/hearty-button/Hearty-Button.jsx";
+import ExpandingButton from "./components/ExpandingButton/ExpandingButton.jsx";
+import GlowingButton from "./components/GlowingButton/GlowingButton.jsx";
+import GradientSlideButton from "./components/GradientSlideButton/GradientSlideButton.jsx";
+import LoadingSuccessButton from "./components/LoadingSuccessButton/LoadingSuccessButton.jsx";
 
 const App = () => {
   return (
@@ -14,7 +15,9 @@ const App = () => {
       <div style={{ padding: "2rem", textAlign: "center" }}>
         <ThemeToggleButton />
       </div>
-      <div>Placeholder for some content</div>
+      <div>
+        <CopyToClipboardButton>Placeholder too</CopyToClipboardButton>
+      </div>
       <div>
         <ExpandingButton>Click Me!</ExpandingButton>
       </div>
