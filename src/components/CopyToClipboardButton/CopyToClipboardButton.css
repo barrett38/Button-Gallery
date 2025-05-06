@@ -1,10 +1,18 @@
+:root {
+  --background: #007bff;
+  --background-hover: #0056b3;
+  --background-copied: #28a745;
+  --background-disabled: #6c757d;
+  --text-color: white;
+}
+
 .copy-btn {
   padding: 12px 20px;
   font-size: 1rem;
   border: none;
   border-radius: 30px;
-  background-color: #007bff;
-  color: white;
+  background-color: var(--background);
+  color: var(--text-color);
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -15,14 +23,14 @@
 }
 
 .copy-btn:hover {
-  background-color: #0056b3;
+  background-color: var(--background-hover);
 }
 
 .copy-btn.copied {
-  background-color: #28a745;
+  background-color: var(--background-copied);
 }
 
 .copy-btn:disabled {
-  background-color: #ccc;
+  background-color: var(--background-disabled);
   cursor: not-allowed;
 }
