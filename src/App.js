@@ -14,6 +14,7 @@ const App = () => {
       <div style={{ padding: "2rem", textAlign: "center" }}>
         <ThemeToggleButton />
       </div>
+      <div>Placeholder for some content</div>
       <div>
         <ExpandingButton>Click Me!</ExpandingButton>
       </div>
